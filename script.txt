@@ -2,11 +2,7 @@
 cd file  #3
 mkdir -p {f1,f2,f3} #4
 cd f1
-touch t1.txt 
-touch t2.txt 
-touch t3.txt #5
-touch j1.json
-touch j2.json
+touch {t1.txt,t2.txt,t3.txt,j1.json,j2.json} #5
 mkdir -p {f1,f2,f3} #7
 ls #8
 mv t2.txt f2
